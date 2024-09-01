@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/box2d-populate"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/7ba0ca08f25b0f9d61d786eba3c39ef9/box2d-populate.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/2fe6ba69c0907b9e40ecbe8d11110b66/box2d-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/box2d-subbuild/CMakeFiles/236d3d2168e3d76b716fe8d9a49fc1f5/box2d-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"box2d-populate"
+		],
+		"name" : "box2d-populate"
+	}
+}

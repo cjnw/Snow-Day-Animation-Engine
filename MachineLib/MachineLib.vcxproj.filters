@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineSystemFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineStandin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineSystemStandin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Machine1Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Motor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MotionSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MotionSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Pulley.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Blower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Snow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Machine2Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\IMachineSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineSystemFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineStandin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\include\machine-api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineSystemStandin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Machine1Factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MotionSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MotionSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Pulley.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Blower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Snow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\Machine2Factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B4D143AB-61E2-325D-ACD7-0F8D969908F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5B3477CB-052C-378C-A19C-2B8EFA733174}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\CMakeFiles\CanadianExperienceLib.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Picture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\MainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\ViewEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\ViewTimeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\PictureObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Drawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\PolyDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\PictureFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\HaroldFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\ImageDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\HeadTop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\SpartyFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\RotatedBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Timeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\TimelineDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\AnimChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\AnimChannelAngle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\AnimChannelPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\BallFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\MachineDrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\MachineDrawableFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\TimelineStart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\MainFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\ViewEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\ViewTimeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\PictureObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\PolyDrawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\PictureFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\HaroldFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\ImageDrawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\HeadTop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\SpartyFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\RotatedBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\Timeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\TimelineDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\AnimChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\AnimChannelAngle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\AnimChannelPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\BallFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\MachineDrawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\MachineDrawableFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\TimelineStart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\CMakeFiles\CanadianExperienceLib.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\CMakeFiles\CanadianExperienceLib.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\CMakeFiles\CanadianExperienceLib.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\CMakeFiles\CanadianExperienceLib.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B4D143AB-61E2-325D-ACD7-0F8D969908F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{E7DCBF9E-8CE2-35EF-B893-D830AC0402F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5B3477CB-052C-378C-A19C-2B8EFA733174}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

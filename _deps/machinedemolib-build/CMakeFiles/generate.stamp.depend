@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindwxWidgets.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/UsewxWidgets.cmake
+C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-src/CMakeLists.txt
+C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-src/Config.h.in

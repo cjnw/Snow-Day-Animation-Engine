@@ -1,0 +1,10 @@
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\9E9A7455AEB437BA18430D8A6057D429\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild" "-BC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

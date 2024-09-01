@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44C3B191-1BD4-3F93-A68F-17ECC8B6BEE5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>machinedemolib-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/tmp/machinedemolib-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/tmp/machinedemolib-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\machinedemolib-populate-gitinfo.txt;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/tmp/machinedemolib-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\tmp\machinedemolib-populate-gitupdate.cmake;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\machinedemolib-populate-update-info.txt;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\machinedemolib-populate-patch-info.txt;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\tmp\machinedemolib-populate-cfgcmd.txt;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\9590c2b59ab38fe3420d5fe19fefb534\machinedemolib-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'machinedemolib-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/Debug/machinedemolib-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-install;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-mkdir;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-download;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-update;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-patch;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-configure;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-build;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\src\machinedemolib-populate-stamp\Debug\machinedemolib-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\Debug\machinedemolib-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\9e9a7455aeb437ba18430d8a6057d429\machinedemolib-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\Debug\machinedemolib-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\machinedemolib-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild" "-BC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild" --check-stamp-file "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\machinedemolib-populate-prefix\tmp\machinedemolib-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\machinedemolib-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{99C7F5B6-DF20-3493-857F-78105BFF9990}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

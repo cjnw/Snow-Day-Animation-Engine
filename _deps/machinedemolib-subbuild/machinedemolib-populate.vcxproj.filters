@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\7c939a895fb2d83ca04f581fe4179448\machinedemolib-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\9590c2b59ab38fe3420d5fe19fefb534\machinedemolib-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\9e9a7455aeb437ba18430d8a6057d429\machinedemolib-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-subbuild\CMakeFiles\machinedemolib-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F5F6497B-58AF-38E7-B663-75E48803D8C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

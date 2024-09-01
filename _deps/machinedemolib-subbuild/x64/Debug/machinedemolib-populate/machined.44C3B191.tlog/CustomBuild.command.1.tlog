@@ -1,0 +1,150 @@
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/tmp/machinedemolib-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/tmp/machinedemolib-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/tmp/machinedemolib-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\7C939A895FB2D83CA04F581FE4179448\MACHINEDEMOLIB-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\machinedemolib-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\9590C2B59AB38FE3420D5FE19FEFB534\MACHINEDEMOLIB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/Debug/machinedemolib-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/Debug/machinedemolib-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKEFILES\9E9A7455AEB437BA18430D8A6057D429\MACHINEDEMOLIB-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CJCN8\ONEDRIVE - MICHIGAN STATE UNIVERSITY\CSE 335\PROJECT2\_DEPS\MACHINEDEMOLIB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild" "-BC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild" --check-stamp-file "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

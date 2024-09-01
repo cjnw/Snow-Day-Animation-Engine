@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5F3EEA89-920B-3BCB-B02B-1FB84650D693}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Tests_run</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Tests_run.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Tests_run.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Tests_run.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Tests_run.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Tests_run</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/wxWidgets-3.2.2/lib/vc_x64_lib/mswu" /external:I "C:/wxWidgets-3.2.2/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\CanadianExperienceLib\Debug\CanadianExperienceLib.lib;..\MachineLib\Debug\MachineLib.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32ud_core.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32ud.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32ud_xrc.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32ud_html.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32ud_xml.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxpngd.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxtiffd.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxjpegd.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxzlibd.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxregexud.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxexpatd.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;..\lib\Debug\gtestd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Debug/Tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Debug/Tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/wxWidgets-3.2.2/lib/vc_x64_lib/mswu" /external:I "C:/wxWidgets-3.2.2/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\CanadianExperienceLib\Release\CanadianExperienceLib.lib;..\MachineLib\Release\MachineLib.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_core.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32u.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_xrc.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_html.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32u_xml.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxpng.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxtiff.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxjpeg.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxzlib.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxregexu.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxexpat.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;..\lib\Release\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Release/Tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Release/Tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/wxWidgets-3.2.2/lib/vc_x64_lib/mswu" /external:I "C:/wxWidgets-3.2.2/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\CanadianExperienceLib\MinSizeRel\CanadianExperienceLib.lib;..\MachineLib\MinSizeRel\MachineLib.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_core.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32u.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_xrc.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_html.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32u_xml.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxpng.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxtiff.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxjpeg.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxzlib.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxregexu.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxexpat.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;..\lib\MinSizeRel\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/MinSizeRel/Tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/MinSizeRel/Tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/wxWidgets-3.2.2/lib/vc_x64_lib/mswu" /external:I "C:/wxWidgets-3.2.2/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest/include" /external:I "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\..\MachineLib\include;C:\wxWidgets-3.2.2\lib\vc_x64_lib\mswu;C:\wxWidgets-3.2.2\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest\include;C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\CanadianExperienceLib\RelWithDebInfo\CanadianExperienceLib.lib;..\MachineLib\RelWithDebInfo\MachineLib.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_core.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32u.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_xrc.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxmsw32u_html.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxbase32u_xml.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxpng.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxtiff.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxjpeg.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxzlib.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxregexu.lib;C:\wxWidgets-3.2.2\lib\vc_x64_lib\wxexpat.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;..\lib\RelWithDebInfo\gtest.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/RelWithDebInfo/Tests_run.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/RelWithDebInfo/Tests_run.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" "-BC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" --check-stamp-file "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" "-BC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" --check-stamp-file "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" "-BC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" --check-stamp-file "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" "-BC:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2" --check-stamp-file "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\Tests_run.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/Tests_run.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\gtest_main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\PictureObserverTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\PictureTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\ActorTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\DrawableTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\PolyDrawableTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\ImageDrawableTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\TimelineTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\AnimChannelAngleTest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/Tests/CMakeFiles/Tests_run.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\Tests_run.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\Tests_run.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\Tests_run.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\Tests\CMakeFiles\Tests_run.dir\RelWithDebInfo\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\ZERO_CHECK.vcxproj">
+      <Project>{0BF8E058-8DDE-3AD0-A49D-C7AF232B50F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\CanadianExperienceLib\CanadianExperienceLib.vcxproj">
+      <Project>{25F62ABD-A2F9-3FA6-8A62-CF7263FCA3AF}</Project>
+      <Name>CanadianExperienceLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\MachineLib\MachineLib.vcxproj">
+      <Project>{59106348-C264-396E-96BE-1CA9E44E5167}</Project>
+      <Name>MachineLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cjcn8\OneDrive - Michigan State University\CSE 335\project2\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{B5BD7A68-AC41-3BCD-8FB4-EAC3EE77E538}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

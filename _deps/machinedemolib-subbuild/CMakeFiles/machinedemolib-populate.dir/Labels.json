@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/machinedemolib-populate"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/9e9a7455aeb437ba18430d8a6057d429/machinedemolib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/9590c2b59ab38fe3420d5fe19fefb534/machinedemolib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/cjcn8/OneDrive - Michigan State University/CSE 335/project2/_deps/machinedemolib-subbuild/CMakeFiles/7c939a895fb2d83ca04f581fe4179448/machinedemolib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"machinedemolib-populate"
+		],
+		"name" : "machinedemolib-populate"
+	}
+}
